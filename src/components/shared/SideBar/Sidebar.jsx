@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { CiInboxIn } from "react-icons/ci";
@@ -13,7 +14,7 @@ import { LuLogIn } from "react-icons/lu";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { RiPagesLine, RiTableLine } from "react-icons/ri";
 import { TbCircuitCellPlus } from "react-icons/tb";
-// import logo from "../../../assets/images/logo.svg";
+import logo from "../../../assets/images/logo.svg";
 
 const Sidebar = () => {
   const [activeMenu, setActiveMenu] = useState(null);
@@ -59,7 +60,7 @@ const Sidebar = () => {
         {/* sidebar header  */}
         <div className="py-5 px-6 sticky top-0 bg-dark z-50 flex justify-between items-center">
           <a className="inline-flex items-center gap-3" href="/">
-            {/* <img src={logo} alt="logo" />  */}
+            <Image src={logo} alt="logo" />
             <span className="text-[24px] text-white font-semibold">
               NurAdmin
             </span>
