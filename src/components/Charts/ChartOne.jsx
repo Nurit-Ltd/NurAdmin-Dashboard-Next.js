@@ -1,7 +1,6 @@
-
 "use client"
 import { useState } from 'react';
-import ReactApexChart from 'react-apexcharts';
+import ReactApexChart from "react-apexcharts";
 const options = {
     legend: {
         show: false,

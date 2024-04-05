@@ -1,10 +1,4 @@
-import ChartOne from "@/components/Charts/ChartOne";
-import ChartThree from "@/components/Charts/ChartThree";
-import ChartTwo from "@/components/Charts/ChartTwo";
-import ChatCard from "@/components/Dashboard/ChatCard";
 import SummeryCard from "@/components/Dashboard/SummeryCard";
-import TopChannels from "@/components/Dashboard/TopChannels";
-import MapOne from "@/components/Map/MapOne";
 import { IoIosArrowDown } from "react-icons/io";
 
 export default function Home() {
@@ -47,7 +41,7 @@ export default function Home() {
       <div className="mt-4 grid grid-cols-12 gap-4 md:mt-6 md:gap-6 2xl:mt-7 2xl:gap-7">
         {/* Chart one start here  */}
         <div className="col-span-12 rounded-sm border border-stroke bg-white px-5 pb-5 pt-7 shadow-md sm:px-7 xl:col-span-8">
-          <ChartOne />
+          {/* <ChartOne /> */}
         </div>
         {/* Chart one End here  */}
         {/* Chart two start here  */}
@@ -72,30 +66,30 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <ChartTwo />
+          {/* <ChartTwo /> */}
         </div>
         {/* Chart two End here  */}
 
         {/* chart thee start here  */}
         <div className="col-span-12 rounded-sm border border-stroke bg-white px-5 pb-5 pt-7 shadow-md md:px-7 xl:col-span-5">
-          <ChartThree />
+          {/* <ChartThree /> */}
         </div>
         {/* chart thee end here  */}
 
         {/* Map One Start   */}
         <div className="col-span-12 rounded-sm border border-stroke bg-white px-7 py-6 shadow-md xl:col-span-7">
-          <MapOne />
+          {/* <MapOne /> */}
         </div>
         {/* Map One End   */}
 
         {/* Top channels  table start here*/}
         <div className="col-span-12 xl:col-span-8">
-          <TopChannels />
+          {/* <TopChannels /> */}
         </div>
         {/* Top channels  table end here*/}
 
         {/* Chat card start here  */}
-        <ChatCard />
+        {/* <ChatCard /> */}
         {/* Chat card end here  */}
       </div>
     </div>
