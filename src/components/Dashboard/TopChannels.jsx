@@ -1,3 +1,4 @@
+import Image from "next/image"
 import source1 from '../../assets/images/brand-01.svg'
 import source2 from '../../assets/images/brand-02.svg'
 import source3 from '../../assets/images/brand-03.svg'
@@ -76,7 +77,8 @@ const TopChannels = () => {
                         <div key={idx} className={`grid grid-cols-3 ${idx !== channels.length - 1 ? "border-b" : ""}  border-stroke md:grid-cols-5`}>
                             <div className="flex items-center gap-3 p-2 xl:p-5">
                                 <div className="flex-shrink-0">
-                                    <img src={channel.Image} alt="Brand" />
+                                    <Image src={channel.Image} alt="Brand" />
+                                   
                                 </div>
                                 <p className="hidden font-medium text-black sm:block">
                                     {channel.Source}
