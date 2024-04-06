@@ -1,3 +1,4 @@
+import ChartOne from "@/components/Charts/ChartOne";
 import SummeryCard from "@/components/Dashboard/SummeryCard";
 import { IoIosArrowDown } from "react-icons/io";
 
@@ -41,7 +42,7 @@ export default function Home() {
       <div className="mt-4 grid grid-cols-12 gap-4 md:mt-6 md:gap-6 2xl:mt-7 2xl:gap-7">
         {/* Chart one start here  */}
         <div className="col-span-12 rounded-sm border border-stroke bg-white px-5 pb-5 pt-7 shadow-md sm:px-7 xl:col-span-8">
-          {/* <ChartOne /> */}
+          <ChartOne />
         </div>
         {/* Chart one End here  */}
         {/* Chart two start here  */}
